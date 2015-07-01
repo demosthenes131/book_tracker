@@ -1,6 +1,6 @@
 book_list = []
 review_list = []
-#hash = { "book" => [book_list], "review" => [review_list] }
+hash = { [book_list] => [review_list] }
 
 loop do
   puts "Do you want to add a book? (yes or no)"
@@ -20,8 +20,9 @@ loop do
             when 'no'
             end
       when 'no'
-        puts "#{book_list[0]} -- #{review_list[0]}"
-        puts "#{book_list[1]} -- #{review_list[1]}"
+        puts book_list.inspect
+        puts hash.inspect
+        hash.each { |key, value| puts "#{key} -- #{value}" }
         break
       else
         break

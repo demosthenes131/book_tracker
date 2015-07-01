@@ -30,3 +30,6 @@ loop do
         break
     end  
 end
+
+def print_list
+  
