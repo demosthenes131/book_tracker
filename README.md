@@ -4,5 +4,6 @@ This is a work in progress and my first app ever!
 
 I want to add the following, eventually:
 
-reviews
-assign genre
+* reviews
+* assign genre
+* author
