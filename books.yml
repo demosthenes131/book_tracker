@@ -11,3 +11,15 @@
   genre: Urban Fantasy
   status: Read it
   review: Fun
+- !ruby/object:Book
+  book_title: Ender's Game
+  author: Orson Scott Card
+  genre: Sci-Fi
+  status: Read it
+  review: Awesome book with great ending.
+- !ruby/object:Book
+  book_title: Something From the Nightside
+  author: Simon R. Green
+  genre: Fantasy
+  status: Read it
+  review: Repetitive but fun

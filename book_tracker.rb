@@ -18,14 +18,17 @@ def run
     loop do
         puts "Select an option from the below choices"
         puts "a: Add a Book"
+        puts "p: Print Book List"
         puts "e: Exit"
         input = gets.chomp.downcase
         case input
             when 'a'
-                add_book
+              add_book
+            when 'p'
+              print_list
             when 'e'
-                save()
-                break
+              save()
+              break
         end
     end    
 end
@@ -47,12 +50,16 @@ def add_book
   @book_list.push(book)
 end
 
+def to_s
+  full_listing
+end  
+
 def print_list
   puts "Book List"
-  @book_list.each do |books|
-    puts books
-  end
+  puts "-" * 20
+  puts @book_list
+  puts "-" * 20
 end
 
 run
-puts @book_list.inspect
+

@@ -11,6 +11,9 @@ class Book
   
   def title_genre
     @book_title + ": " + @genre
-  end  
+  end
   
+  def full_listing
+    @book_title + " by " + @author + " is in the genre " + @genre + " with a status of " + @status + " and a review of " + @review
+  end
 end
