@@ -1,0 +1,13 @@
+---
+- !ruby/object:Book
+  book_title: Storm Front
+  author: Jim Butcher
+  genre: Urban Fantasy
+  status: Listened
+  review: Amazing
+- !ruby/object:Book
+  book_title: Hounded
+  author: Kevin Hearne
+  genre: Urban Fantasy
+  status: Read it
+  review: Fun

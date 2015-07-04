@@ -1,21 +1,30 @@
 require "./book"
+require "yaml"
+
+def open
+  if File.exist?("books.yml")
+    @book_list = YAML.load_file("books.yml")
+  end
+end
+
+def save
+  File.open("books.yml", "w") do |file|
+    file.write(@book_list.to_yaml)
+  end  
+end
 
 def run
+  open()
     loop do
         puts "Select an option from the below choices"
         puts "a: Add a Book"
-        puts "p: View the Books"
-        puts "s: Search the Books"
         puts "e: Exit"
         input = gets.chomp.downcase
         case input
             when 'a'
                 add_book
-            when 'p'
-                print_list
-            when 's'
-                search_books
             when 'e'
+                save()
                 break
         end
     end    
@@ -43,7 +52,7 @@ def print_list
   @book_list.each do |books|
     puts books
   end
-end  
+end
 
 run
 puts @book_list.inspect
