@@ -1,4 +1,4 @@
-A simple application to add books and track whether they have been read or listened to, as well as ad a short, one sentence review of each book.
+A simple application to add books and track whether they have been read or listened to, as well as add a short, one sentence review of each book.
 
 The app will allow you to enter the following about the book:
 
