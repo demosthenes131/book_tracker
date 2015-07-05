@@ -43,7 +43,7 @@ def add_book
   book.author = gets.chomp
   print "Genre: "
   book.genre = gets.chomp
-  print "Have you read it, listened to it, or is it a wish list item? "
+  print "Have you read it, listened to it, or both? "
   book.status = gets.chomp
   print "Write a short, one sentence, review! "
   book.review = gets.chomp
@@ -62,4 +62,3 @@ def print_list
 end
 
 run
-

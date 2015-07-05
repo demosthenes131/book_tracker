@@ -23,3 +23,21 @@
   genre: Fantasy
   status: Read it
   review: Repetitive but fun
+- !ruby/object:Book
+  book_title: Day After Roswell
+  author: Philip Corso
+  genre: UFO Research
+  status: Read it
+  review: Very interesting book.
+- !ruby/object:Book
+  book_title: Speaker for the Dead
+  author: Orson Scott Card
+  genre: Sci-fi
+  status: Read it
+  review: Great sequel that expands on the first book in the series.
+- !ruby/object:Book
+  book_title: Children of the Mind
+  author: Orson Scott Card
+  genre: Sci-fi
+  status: Read it
+  review: Pretty good but slow.
