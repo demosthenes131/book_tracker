@@ -1,9 +1,11 @@
-A simple application to add books and track whether they have been read or listened to.
+A simple application to add books and track whether they have been read or listened to, as well as ad a short, one sentence review of each book.
 
-This is a work in progress and my first app ever!
+The app will allow you to enter the following about the book:
 
-I want to add the following, eventually:
+* Book title
+* Author
+* Genre
+* Status
+* Review
 
-* reviews
-* assign genre
-* author
+and will allow you to print to the screen the current list of books.
